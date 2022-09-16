@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor_logo{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.img-logo{
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.tarea_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+    padding: 0px 5px;
+    margin: 3px 0px;
+    background-color: #3B44F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tarea_contenedor:nth-child(3n+1){
+    background-color: #5800FF;
+}
+
+.tarea_contenedor:nth-child(3n+2){
+    background-color: #0096FF;
+}
+
+.tarea_contenedor:nth-child(3n+3){
+    background-color: #00D7FF;
+}
+
+.texto_tarea{
+    width: 95%;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    overflow-wrap:break-word;
+}
+
+.tarea_contenedor_iconos{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono{
+    color: white;
+}
+
+.tarea_contenedor.tarea_completa{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    background-color: #3EC70B;
+    font-weight: 400;
+}
