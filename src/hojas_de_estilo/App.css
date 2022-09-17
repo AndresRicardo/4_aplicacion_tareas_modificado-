@@ -13,3 +13,29 @@
     align-items: center;
     background-color: #0C0A22;
 }
+
+.contenedor_todo{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto, sans-serif;
+    background-color: #ccc;
+    padding: 10px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+}
+
+h1{
+color: #A149FA;
+font-size: 2em;
+}
+
+.tareas_lista_contenedor{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
